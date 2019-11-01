@@ -71,8 +71,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KcI-Me-0yr">
-                                <rect key="frame" x="180" y="296" width="55" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KcI-Me-0yr">
+                                <rect key="frame" x="162" y="296" width="90" height="30"/>
                                 <state key="normal" title="Convert"/>
                                 <connections>
                                     <action selector="convertButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JeE-8F-eni"/>
@@ -116,7 +116,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOP-qJ-OL6">
-                                <rect key="frame" x="185" y="602" width="44" height="30"/>
+                                <rect key="frame" x="185" y="596" width="44" height="30"/>
                                 <state key="normal" title="Metric"/>
                                 <connections>
                                     <action selector="metricButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5tI-z9-UQb"/>
@@ -127,17 +127,17 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ub5-xU-ih1" secondAttribute="trailing" constant="8" id="4su-fD-GcA"/>
                             <constraint firstItem="Yzm-NJ-fyn" firstAttribute="centerX" secondItem="KcI-Me-0yr" secondAttribute="centerX" id="9iJ-au-yKY"/>
-                            <constraint firstItem="KcI-Me-0yr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="180" id="CNa-Nr-rPK"/>
+                            <constraint firstItem="KcI-Me-0yr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="162" id="CNa-Nr-rPK"/>
                             <constraint firstItem="Ub5-xU-ih1" firstAttribute="centerX" secondItem="HOP-qJ-OL6" secondAttribute="centerX" id="Ewr-cH-cS9"/>
                             <constraint firstItem="KcI-Me-0yr" firstAttribute="top" secondItem="Yzm-NJ-fyn" secondAttribute="bottom" constant="44" id="UJq-Bh-MQf"/>
                             <constraint firstItem="Yzm-NJ-fyn" firstAttribute="top" secondItem="Gu5-tG-b3d" secondAttribute="bottom" constant="58" id="YaJ-3c-AXc"/>
                             <constraint firstItem="Gu5-tG-b3d" firstAttribute="centerX" secondItem="Yzm-NJ-fyn" secondAttribute="centerX" id="bNK-JL-3cH"/>
                             <constraint firstItem="Gu5-tG-b3d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="fg3-Bs-728"/>
-                            <constraint firstItem="HOP-qJ-OL6" firstAttribute="top" secondItem="Ub5-xU-ih1" secondAttribute="bottom" constant="90" id="mpe-uj-sEo"/>
+                            <constraint firstItem="HOP-qJ-OL6" firstAttribute="top" secondItem="Ub5-xU-ih1" secondAttribute="bottom" constant="84" id="mpe-uj-sEo"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gu5-tG-b3d" secondAttribute="trailing" constant="8" id="p0f-Xs-cdD"/>
                             <constraint firstItem="Gu5-tG-b3d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="qgu-aa-eUA"/>
                             <constraint firstItem="Ub5-xU-ih1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="sxI-fV-jh9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HOP-qJ-OL6" secondAttribute="bottom" constant="230" id="v0j-nF-c96"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HOP-qJ-OL6" secondAttribute="bottom" constant="236" id="v0j-nF-c96"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
