@@ -43,5 +43,7 @@ iOS-study-guide-week-1
  
  Some of these steps and points will require you to provide your own input or re-create repos to have a clean slate to work from when solving again. I will try my best to get all the pertinent information but by no means is this the end all be all study guide. Use your best judgement on what you think you need more practice on, and then do that.
  
+ There is also a project file included that touches on the fundamentals of function creation in a basic conversion app and how to reflect those changes into the View
+ 
  -Patrick Millet-
  */
